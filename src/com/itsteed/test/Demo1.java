@@ -1,14 +1,10 @@
 package com.itsteed.test;
 
 
-import javax.transaction.HeuristicMixedException;
-import javax.transaction.HeuristicRollbackException;
-import javax.transaction.RollbackException;
-import javax.transaction.SystemException;
-import javax.transaction.Transaction;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.junit.Test;
 
@@ -26,7 +22,7 @@ public class Demo1 {
 	 * @throws SecurityException 
 	 */
 	@Test
-	public void testSave() throws SecurityException, HeuristicMixedException, HeuristicRollbackException, RollbackException, SystemException{
+	public void testSave() {
 		/**
 		 * 1.先加载配置文件
 		 * 2.创建SessionFactory对象，生成Session对象
