@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+<hibernate-configuration>
+   <!-- 先配置SessionFactory -->
+   <session-factory>
+      <!-- 必须要配置的参数有5个，4大参数，数据库方言-->
+      <property name=""></property>
+      <property name=""></property>
+      <property name=""></property>
+      <property name=""></property>
+      
+      <!-- 数据库的方言 -->
+      <property name=""></property>
+      
+      <!-- 可选配置 -->
+      
+      <!-- 映射配置文件，需要引入映射的配置文件 -->
+      <mapping resource="com/itsteed/domain/Customer.hbm.xml"/>
+      
+   </session-factory>
+
+</hibernate-configuration>
