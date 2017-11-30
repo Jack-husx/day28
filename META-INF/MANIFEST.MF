@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: day28
+Bundle-SymbolicName: day28
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.itsteed.domain
+Require-Bundle: org.junit
