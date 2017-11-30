@@ -29,6 +29,7 @@ public class Demo1 {
 		 */
 		Configuration config = new Configuration();
 		config.configure();
+		
 		SessionFactory factory = config.buildSessionFactory();
 		Session session = factory.openSession();
 		Transaction tr = (Transaction) session.beginTransaction();
@@ -42,18 +43,6 @@ public class Demo1 {
 		tr.commit();
 		session.close();
 		factory.close();
-		System.out.println("hello world");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 }

@@ -28,6 +28,7 @@ public class Customer {
 	private String cust_linkman;
 	private String cust_phone;
 	private String cust_mobile;
+	
 	public Long getCust_id() {
 		return cust_id;
 	}
@@ -88,14 +89,6 @@ public class Customer {
 	public void setCust_mobile(String cust_mobile) {
 		this.cust_mobile = cust_mobile;
 	}
-	
-	
-	
-	
-	
-	
-	
 
-	
 
 }
