@@ -29,6 +29,7 @@ public class Demo1 {
 		 */
 		Configuration config = new Configuration();
 		config.configure();
+		
 		SessionFactory factory = config.buildSessionFactory();
 		Session session = factory.openSession();
 		Transaction tr = (Transaction) session.beginTransaction();
@@ -38,7 +39,7 @@ public class Demo1 {
 		c.setCust_level("2");
 		c.setCust_phone("110");
 		
-		
+		session.save(c);
 		tr.commit();
 		session.close();
 		factory.close();
