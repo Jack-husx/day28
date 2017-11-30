@@ -88,91 +88,9 @@ public class Customer {
 	public void setCust_mobile(String cust_mobile) {
 		this.cust_mobile = cust_mobile;
 	}
-	@Override
-	public String toString() {
-		return "Customer [cust_id=" + cust_id + ", cust_name=" + cust_name + ", cust_user_id=" + cust_user_id
-				+ ", cust_create_id=" + cust_create_id + ", cust_source=" + cust_source + ", cust_industry="
-				+ cust_industry + ", cust_level=" + cust_level + ", cust_linkman=" + cust_linkman + ", cust_phone="
-				+ cust_phone + ", cust_mobile=" + cust_mobile + "]";
 	
-	}
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((cust_create_id == null) ? 0 : cust_create_id.hashCode());
-		result = prime * result + ((cust_id == null) ? 0 : cust_id.hashCode());
-		result = prime * result + ((cust_industry == null) ? 0 : cust_industry.hashCode());
-		result = prime * result + ((cust_level == null) ? 0 : cust_level.hashCode());
-		result = prime * result + ((cust_linkman == null) ? 0 : cust_linkman.hashCode());
-		result = prime * result + ((cust_mobile == null) ? 0 : cust_mobile.hashCode());
-		result = prime * result + ((cust_name == null) ? 0 : cust_name.hashCode());
-		result = prime * result + ((cust_phone == null) ? 0 : cust_phone.hashCode());
-		result = prime * result + ((cust_source == null) ? 0 : cust_source.hashCode());
-		result = prime * result + ((cust_user_id == null) ? 0 : cust_user_id.hashCode());
-		return result;
-	}
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Customer other = (Customer) obj;
-		if (cust_create_id == null) {
-			if (other.cust_create_id != null)
-				return false;
-		} else if (!cust_create_id.equals(other.cust_create_id))
-			return false;
-		if (cust_id == null) {
-			if (other.cust_id != null)
-				return false;
-		} else if (!cust_id.equals(other.cust_id))
-			return false;
-		if (cust_industry == null) {
-			if (other.cust_industry != null)
-				return false;
-		} else if (!cust_industry.equals(other.cust_industry))
-			return false;
-		if (cust_level == null) {
-			if (other.cust_level != null)
-				return false;
-		} else if (!cust_level.equals(other.cust_level))
-			return false;
-		if (cust_linkman == null) {
-			if (other.cust_linkman != null)
-				return false;
-		} else if (!cust_linkman.equals(other.cust_linkman))
-			return false;
-		if (cust_mobile == null) {
-			if (other.cust_mobile != null)
-				return false;
-		} else if (!cust_mobile.equals(other.cust_mobile))
-			return false;
-		if (cust_name == null) {
-			if (other.cust_name != null)
-				return false;
-		} else if (!cust_name.equals(other.cust_name))
-			return false;
-		if (cust_phone == null) {
-			if (other.cust_phone != null)
-				return false;
-		} else if (!cust_phone.equals(other.cust_phone))
-			return false;
-		if (cust_source == null) {
-			if (other.cust_source != null)
-				return false;
-		} else if (!cust_source.equals(other.cust_source))
-			return false;
-		if (cust_user_id == null) {
-			if (other.cust_user_id != null)
-				return false;
-		} else if (!cust_user_id.equals(other.cust_user_id))
-			return false;
-		return true;
-	}
+	
+	
 	
 	
 	

@@ -38,11 +38,11 @@ public class Demo1 {
 		c.setCust_level("2");
 		c.setCust_phone("110");
 		
-		
+		session.save(c);
 		tr.commit();
 		session.close();
 		factory.close();
-		
+		System.out.println("hello world");
 		
 		
 		
