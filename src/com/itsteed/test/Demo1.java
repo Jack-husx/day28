@@ -35,7 +35,7 @@ public class Demo1 {
 		Transaction tr = (Transaction) session.beginTransaction();
 		
 		Customer c = new Customer();
-		c.setCust_name("测试");
+		c.setCust_name("测试10");
 		c.setCust_level("2");
 		c.setCust_phone("110");
 		

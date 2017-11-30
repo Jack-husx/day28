@@ -28,7 +28,7 @@ public class Customer {
 	private String cust_linkman;
 	private String cust_phone;
 	private String cust_mobile;
-	
+
 	public Long getCust_id() {
 		return cust_id;
 	}
